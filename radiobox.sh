@@ -71,12 +71,14 @@ function selectRadioStation {
     echo "----------------------"
     IFS=""
     RADIO_INDEX=0
+    RADIO_TABLE=""
     for RADIO in ${RADIOS[@]}; do
         RADIO_INDEX=$((RADIO_INDEX+1));
         RADIO_NAME=$(echo "${RADIO}" | cut -d'|' -f1)
-        printf "(%2s)" ${RADIO_INDEX}
-        echo -e "  ${RADIO_NAME}"
+        RADIO_TABLE="$RADIO_TABLE $(printf '(%2s)' ${RADIO_INDEX})"
+        RADIO_TABLE="$RADIO_TABLE $(printf '%2s \\n' ${RADIO_NAME})"
     done
+    printf "${RADIO_TABLE}" | column -c 100
     echo ""
     echo "(b)  Back to main menu ..."
     echo ""
