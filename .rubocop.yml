@@ -1,0 +1,14 @@
+AllCops:
+  NewCops: enable
+
+Style/FrozenStringLiteralComment:
+  Exclude:
+    - '*.rb'
+Style/GlobalVars:
+  Exclude:
+    - '*.rb'
+Style/GuardClause:
+  Exclude:
+    - '*.rb'
+Metrics/MethodLength:
+  Max: 50

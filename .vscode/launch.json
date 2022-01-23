@@ -1,0 +1,24 @@
+{
+  // Launch app with rdebug-ide main.rb in order to use remote debugging
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Local",
+      "type": "Ruby",
+      "request": "launch",
+      "program": "${workspaceRoot}/main.rb",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "externalConsole": true
+    },
+    {
+      "name": "Debug Remote",
+      "type": "Ruby",
+      "request": "attach",
+      "cwd": "${workspaceRoot}",
+      "remoteHost": "127.0.0.1",
+      "remotePort": "1234",
+      "remoteWorkspaceRoot": "${workspaceRoot}"
+    }
+  ]
+}
