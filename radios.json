@@ -1,5 +1,19 @@
 {
-    "CNN Türk": "http://radyo.dogannet.tv/cnnturk",
-    "NTV Radyo": "http://ntvrdsc.radyotvonline.com",
-    "Habertürk": "http://mn-i.mncdn.com/haberturkradyo/htradyo/playlist.m3u8"
+  "NTV Radyo": "http://ntvrdsc.radyotvonline.com",
+  "Radyo Voyage": "http://voyagewmp.radyotvonline.com:80",
+  "Pal Station": "http://shoutcast.radyogrup.com:1020",
+  "Metro Fm": "http://playerservices.streamtheworld.com/api/livestream-redirect/METRO_FM_SC",
+  "Virgin Radio": "http://playerservices.streamtheworld.com/api/livestream-redirect/VIRGIN_RADIO_SC",
+  "Joy Fm": "http://playerservices.streamtheworld.com/api/livestream-redirect/JOY_FM_SC",
+  "Pal Dance": "http://shoutcast.radyogrup.com:2040",
+  "Pal Orient": "http://shoutcast.radyogrup.com:1050",
+  "World Hits": "http://37.247.98.8/stream/34/.mp3",
+  "Joy Jazz": "http://playerservices.streamtheworld.com/api/livestream-redirect/JOY_JAZZ_SC",
+  "Radyo 7": "http://canliyayin.radyo7.com",
+  "Pal Akustik": "http://shoutcast.radyogrup.com:2030",
+  "Pal Slow": "http://shoutcast.radyogrup.com:2020",
+  "Retro Türk": "http://playerservices.streamtheworld.com/api/livestream-redirect/RETROTURK_SC",
+  "Radyo 7 Nostalji": "http://37.247.98.8/stream/25/.mp3",
+  "Radyo Dejavu": "http://radyodejavu.canliyayinda.com:8054",
+  "Pal Nostalji": "http://shoutcast.radyogrup.com:1010"
 }
